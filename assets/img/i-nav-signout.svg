@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="18px" height="19px" viewBox="0 0 18 19" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 49 (51002) - http://www.bohemiancoding.com/sketch -->
+    <title>logout - simple-line-icons</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="MobSite" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" font-family="simple-line-icons" font-size="18" font-weight="normal">
+        <g id="00_Home---Menu-Profile" transform="translate(-15.000000, -253.000000)" fill="#9ECDB5">
+            <g id="User-Menu" transform="translate(0.000000, 55.000000)">
+                <text id="logout---simple-line-icons">
+                    <tspan x="15" y="215"></tspan>
+                </text>
+            </g>
+        </g>
+    </g>
+</svg>

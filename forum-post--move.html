@@ -1,0 +1,444 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="author" content="The Urban Mama">
+    <meta name="description" content="The Urban Mama is a blog started by blogger moms who always meet up for playdates and talk about their kids ALL THE TIME!! All of us are long time bloggers who are still quite active in updating our blogs in between changing the diapers and running around chasing our kids." />
+    <meta http-equiv="content-language" content="en, id" />
+    <meta name="robots" content="INDEX, FOLLOW, NOODP, NOYDIR" />
+    <meta property="fb:pages" content="205361432526" />
+    <title>The Urban Mama - There is always a different story in every parenting style</title>
+    <link rel="icon" href="favicon.ico">
+    <!-- Bootstrap core CSS -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous" />
+    <link href="dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="assets/vendors/bootstrap-select-master/dist/css/bootstrap-select.css">
+    <link href="assets/vendors/simple-line-icons/css/simple-line-icons.css" rel="stylesheet">
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <link href="assets/css/ie10-viewport-bug-workaround.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="dist/css/styles.css" rel="stylesheet">
+    <link rel="stylesheet" href="assets/vendors/owlcarousel/owl.carousel.min.css">
+    <link rel="stylesheet" href="assets/vendors/owlcarousel/owl.theme.default.min.css">
+
+    <!-- Just for debugging purposes. Don't actually copy these 2 lines! -->
+    <!--[if lt IE 9]><script src="assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
+
+    <script src="assets/js/ie-emulation-modes-warning.js"></script>
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+
+  <body>
+    <header>
+        <div class="layout__nav-content navbar-tum">
+        <div class="nav-main">
+          <div class="nav-main__overlay"></div>
+          <a href="javascript:void(0)" class="nav-main__left i-nav-menu">
+            <span></span>
+          </a>
+          <div class="nav-main__middle">
+            <div class="nav-main__logo">
+              <a href="javascript:void(0)" class="nav-main__logo-link nav-all-discussion">All Discussion <i class="fa fa-sort"></i></a>
+            </div>
+          </div>
+          <a href="javascript:void(0)" id="profile-avatar" class="nav-main__profile">
+            <span><img src="assets/img/account-photo.png" alt="Udhien"></span>
+          </a>
+          <a href="javascript:void(0)" id="topbar-more" class="nav-main__right i-nav-search">
+            <span></span>
+          </a>
+        </div>
+        <!-- Menu Panel --> 
+        <div class="menu-panel">
+          <div class="menu-panel__item menu-panel__item_user">
+            <a class="menu-panel__close js-nav-close">
+              <span class="menu-panel__close-icon i-menu-close"></span>
+            </a>
+            <!-- Logged in -->
+            <div id="user-menu" class="menu-panel--section">
+              <a href="javascript:void(0)" id="profile-avatar" class="menu-panel--section__avatar">
+                <span><img src="assets/img/account-photo.png" alt="Udhien"></span>
+                <span class="menu-panel--section__link-label">Mohammad Syafiuddin</span>
+              </a>
+              <a href="edit-profile.html" class="menu-panel--section__avatar-edit">Edit</a>
+            </div>
+          </div>
+          <div class="menu-panel__item menu-panel__item_home">
+            <div class="menu-panel--section" id="menu-panel-section-channel">
+              <h2 class="menu-panel--section__header">Menu Utama</h2>
+              <ul class="menu-panel--section__list">
+                <li class="menu-panel--section__item menu-panel--section__parent i-nav-arrow-right">
+                  <a href="javascript:void(0)" class="menu-panel--section__link">
+                    <span class="menu-panel--section--icon">
+                      <i class="menu-panel--section--icon__svg i-nav-cat"></i>
+                    </span>
+                    <span class="menu-panel--section__link-label">Kategori</span>
+                  </a>
+                </li>
+                <!-- <li class="menu-panel--section__item">
+                  <a href="#" class="menu-panel--section__link">
+                    <span class="menu-panel--section--icon">
+                      <i class="menu-panel--section--icon__svg i-nav-home"></i>
+                    </span>
+                    <span class="menu-panel--section__link-label">Beranda</span>
+                  </a> -->
+                </li>
+                <li class="menu-panel--section__item">
+                  <a href="#" class="menu-panel--section__link">
+                    <span class="menu-panel--section--icon">
+                      <i class="menu-panel--section--icon__svg i-nav-forum"></i>
+                    </span>
+                    <span class="menu-panel--section__link-label">Forum</span>
+                  </a>
+                </li>
+                <li class="menu-panel--section__item">
+                  <a href="#" class="menu-panel--section__link">
+                    <span class="menu-panel--section--icon">
+                      <i class="menu-panel--section--icon__svg i-nav-dir"></i>
+                    </span>
+                    <span class="menu-panel--section__link-label">Directory</span>
+                  </a>
+                </li>
+                <li class="menu-panel--section__item">
+                  <a href="#" class="menu-panel--section__link">
+                    <span class="menu-panel--section--icon">
+                      <i class="menu-panel--section--icon__svg i-nav-event"></i>
+                    </span>
+                    <span class="menu-panel--section__link-label">Events</span>
+                  </a>
+                </li>
+                <li class="menu-panel--section__item">
+                  <a href="#" class="menu-panel--section__link">
+                    <span class="menu-panel--section--icon">
+                      <i class="menu-panel--section--icon__svg i-nav-gift"></i>
+                    </span>
+                    <span class="menu-panel--section__link-label">Gift Registry</span>
+                  </a>
+                </li>
+                <li class="menu-panel--section__item">
+                  <a href="#" class="menu-panel--section__link">
+                    <span class="menu-panel--section--icon">
+                      <i class="menu-panel--section--icon__svg i-nav-goodies"></i>
+                    </span>
+                    <span class="menu-panel--section__link-label">Goodies</span>
+                  </a>
+                </li>
+                <li class="menu-panel--section__item">
+                  <a href="#" class="menu-panel--section__link">
+                    <span class="menu-panel--section--icon">
+                      <i class="menu-panel--section--icon__svg i-nav-contribute"></i>
+                    </span>
+                    <span class="menu-panel--section__link-label">Contribute</span>
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="menu-panel__item">
+            <div class="menu-panel--section" id="menu-panel-section-channel">
+              <h2 class="menu-panel--section__header">Informasi</h2>
+              <ul class="menu-panel--section__list">
+                <li class="menu-panel--section__item">
+                  <a href="#" class="menu-panel--section__link">
+                    <span class="menu-panel--section--icon">
+                      <i class="menu-panel--section--icon__svg i-nav-about"></i>
+                    </span>
+                    <span class="menu-panel--section__link-label">About Us</span>
+                  </a>
+                </li>
+                <li class="menu-panel--section__item">
+                  <a href="#" class="menu-panel--section__link">
+                    <span class="menu-panel--section--icon">
+                      <i class="menu-panel--section--icon__svg i-nav-contact"></i>
+                    </span>
+                    <span class="menu-panel--section__link-label">Contact Us</span>
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="menu-panel__item">
+            <div class="menu-panel--section">
+              <h2 class="menu-panel--section__header">Ikuti Kami</h2>
+              <div class="social-media">
+                <ul>
+                  <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                  <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                  <li><a href="#"><i class="fa fa-instagram"></i></a></li>
+                  <li><a href="#"><i class="fa fa-envelope-o"></i></a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- User Panel --> 
+        <div class="menu-panel user-panel">
+          <div class="menu-panel__item">
+            <div class="menu-panel--section" id="menu-panel-section-channel">
+              <p>Hi, Mohammad Syafiuddin</p>
+              <ul class="menu-panel--section__list">
+                <li class="menu-panel--section__item">
+                  <a href="#" class="menu-panel--section__link">
+                    <span class="menu-panel--section--icon">
+                      <i class="menu-panel--section--icon__svg i-nav-inbox"></i>
+                    </span>
+                    <span class="menu-panel--section__link-label">Inbox</span>
+                    <span class="count">2</span>
+                  </a>
+                </li>
+                <li class="menu-panel--section__item">
+                  <a href="#" class="menu-panel--section__link">
+                    <span class="menu-panel--section--icon">
+                      <i class="menu-panel--section--icon__svg i-nav-gift"></i>
+                    </span>
+                    <span class="menu-panel--section__link-label">Gift Registry</span>
+                  </a>
+                </li>
+                <li class="menu-panel--section__item">
+                  <a href="edit-profile.html" class="menu-panel--section__link">
+                    <span class="menu-panel--section--icon">
+                      <i class="menu-panel--section--icon__svg i-nav-set"></i>
+                    </span>
+                    <span class="menu-panel--section__link-label">Settings</span>
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="menu-panel__item">
+            <div class="menu-panel--section">
+              <ul class="menu-panel--section__list">
+                  <li class="menu-panel--section__item">
+                    <a href="#" class="menu-panel--section__link">
+                      <span class="menu-panel--section--icon">
+                        <i class="menu-panel--section--icon__svg i-nav-signout"></i>
+                      </span>
+                      <span class="menu-panel--section__link-label">Sign Out</span>
+                    </a>
+                  </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <!-- Category Panel --> 
+        <div class="menu-panel category-panel">
+          <div class="menu-panel__item menu-panel__item_user">
+            <a class="menu-panel__close js-nav-close">
+              <span class="menu-panel__close-icon i-menu-close"></span>
+            </a>
+            <div id="user-menu" class="menu-panel--section">
+              <a href="#" class="menu-panel--section__link menu-panel--section__link_signin">
+                <span class="menu-panel--section--icon">
+                  <span class="menu-panel--section--icon__svg i-nav-back"></span>
+                </span>
+                <span class="menu-panel--section__link-label menu-panel--section__link-label_orange">Kategori</span>
+              </a>
+            </div>
+          </div>
+          <div class="menu-panel__item menu-panel__item_category row">
+            <div class="menu-panel--section" id="menu-panel-section-channel">
+              <div class="col-xs-4">
+                <a href="#">
+                  <img src="assets/img/cat-01.png" alt="Breast Feeding" width="100%">
+                  <span>Breast Feeding</span>
+                </a>
+              </div>
+              <div class="col-xs-4">
+                <a href="#">
+                  <img src="assets/img/cat-02.png" alt="Parenting" width="100%">
+                  <span>Parenting</span>
+                </a>
+              </div>
+              <div class="col-xs-4">
+                <a href="#">
+                  <img src="assets/img/cat-03.png" alt="Finance" width="100%">
+                  <span>Finance</span>
+                </a>
+              </div>
+              <div class="col-xs-4">
+                <a href="#">
+                  <img src="assets/img/cat-04.png" alt="Home & Kitchen" width="100%">
+                  <span>Home & Kitchen</span>
+                </a>
+              </div>
+              <div class="col-xs-4">
+                <a href="#">
+                  <img src="assets/img/cat-05.png" alt="Recipes" width="100%">
+                  <span>Recipes</span>
+                </a>
+              </div>
+              <div class="col-xs-4">
+                <a href="#">
+                  <img src="assets/img/cat-06.png" alt="Health & Fitness" width="100%">
+                  <span>Health & Fitness</span>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="menu-panel__item">
+            <div class="menu-panel--section">
+              <h5 class="text-uppercase"><a href="#">Expert Explains</a></h5>
+              <ul class="expert-list">
+                <li><a href="#" class="btn btn-inline">Dokter Anak</a></li>
+                <li><a href="#" class="btn btn-inline">Dokter Mata</a></li>
+                <li><a href="#" class="btn btn-inline">Dokter Mata</a></li>
+                <li><a href="#" class="btn btn-inline">Psikolog</a></li>
+                <li><a href="#" class="btn btn-inline">Finansial</a></li>
+                <li><a href="#" class="btn btn-inline">Arsitektur</a></li>
+                <li><a href="#" class="btn btn-inline">Konselor</a></li>
+                <li><a href="#" class="btn btn-inline">Ahli Gizi</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <!-- Search Panel -->
+        <div class="search-panel">
+          <div class="search-panel__bar">
+            <form action="search" action="post-category.html" method="GET" id="search-bar">
+              <input type="text" class="i-nav-search typeahead search" name="search" data-provide="typeahead" placeholder="Apa yang ingin Anda cari hari ini" autocomplete="off">
+              <button type="reset" class="i-menu-close"></button>
+            </form>
+            <a href="javascript:void(0)" class="search-panel__close">
+              <span>Batal</span>
+            </a>
+          </div>
+        </div>
+        <!-- Forum Category Panel --> 
+        <div class="forum-panel menu-panel">
+          <div class="menu-panel__item menu-panel__item_user">
+            <a class="menu-panel__close js-nav-close">
+              <span class="menu-panel__close-icon i-menu-close"></span>
+            </a>
+            <div id="user-menu" class="menu-panel--section">
+              <a href="login.html" class="menu-panel--section__link menu-panel--section__link_signin">
+                <span class="menu-panel--section--icon">
+                  <span class="menu-panel--section--icon__svg i-menu-message"></span>
+                </span>
+                <span class="menu-panel--section__link-label">All Discussion</span>
+              </a>
+            </div>
+          </div>
+          <div class="menu-panel__item menu-panel__item_category row">
+            <div class="menu-panel--section" id="menu-panel-section-channel">
+              <div class="col-xs-4">
+                <a href="#">
+                  <img src="assets/img/cat-01.png" alt="Breast Feeding" width="100%">
+                  <span>Breast Feeding</span>
+                </a>
+              </div>
+              <div class="col-xs-4">
+                <a href="#">
+                  <img src="assets/img/cat-02.png" alt="Parenting" width="100%">
+                  <span>Parenting</span>
+                </a>
+              </div>
+              <div class="col-xs-4">
+                <a href="#">
+                  <img src="assets/img/cat-03.png" alt="Finance" width="100%">
+                  <span>Finance</span>
+                </a>
+              </div>
+              <div class="col-xs-4">
+                <a href="#">
+                  <img src="assets/img/cat-04.png" alt="Home & Kitchen" width="100%">
+                  <span>Home & Kitchen</span>
+                </a>
+              </div>
+              <div class="col-xs-4">
+                <a href="#">
+                  <img src="assets/img/cat-05.png" alt="Recipes" width="100%">
+                  <span>Recipes</span>
+                </a>
+              </div>
+              <div class="col-xs-4">
+                <a href="#">
+                  <img src="assets/img/cat-06.png" alt="Health & Fitness" width="100%">
+                  <span>Health & Fitness</span>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+        </div>
+      <div class="panel__overlay"></div>
+    </header>
+    <div class="layout__content">
+        <section class="main section no-pd--top">
+          <div class="article">
+              <div class="article-readpage">
+                <div class="article-readpage--section">
+                  <ul class="breadcrumbs" id="breadcrumb">
+                    <li class="breadcrumbs--item">
+                      <a href="#" class="breadcrumbs--item__link"><span itemprop="name">Home</span></a>
+                    </li>
+                    <li class="breadcrumbs--item">
+                      <a href="#" class="breadcrumbs--item__link"><span itemprop="our-story">Forum</span></a>
+                    </li>
+                    <li class="breadcrumbs--item">
+                      <a href="#" class="breadcrumbs--item__link"><span itemprop="post-new-topic">Post New Topic</span></a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+          </div>
+          <div class="profile-container container">
+            <h4>Move Topic to a New Forum</h4>
+            <div class="form-group">
+              <label>Destination Forum</label>
+                <select class="form-control">
+                    <optgroup label="Limited Area"><option value="8">Admin + Mods Only</option><option value="11">Birth Club</option><option value="23">Development Progress Forum</option><option value="28">The Bin</option><option value="31">Forum Mods Only</option></optgroup> <optgroup label="Hello Mamas &amp; Papas"><option value="10">Hello Mamas &amp; Papas, netiquette, suggestions, &amp; questions.</option><option value="29">Events &amp; Announcements</option><option value="33">TUM 4 Indonesia!</option></optgroup> <optgroup label="Parenting"><option value="2">Pregnancy</option><option value="3">Baby</option><option value="4">Toddler</option><option value="5">Child</option><option value="6">General Parenting</option><option value="19">For Papa</option><option value="32">Trying to Conceive</option><option value="35">Tweens</option><option value="36">Teenagers</option></optgroup> <optgroup label="The Urban Fit (Fitness and Health)"><option value="46">Healthy Diets</option><option value="47">Contest &amp; Challenges</option><option value="48">Walking, Running, Swimming and Cycling</option><option value="49">Body and Minds</option><option value="50">Gym and Classes</option><option value="51">Sports &amp; Martial Arts</option><option value="52">Fitness Gears</option><option value="53">Health &amp; Wellness</option><option value="55">Sports Gathering</option></optgroup> <optgroup label="Mama's Home &amp; Kitchen"><option value="30">Recipes</option><option value="34">Kitchen Talk</option><option value="44">Home Sweet Home</option></optgroup> <optgroup label="Fun Mama"><option value="9">Urban Kids Gallery</option><option value="14">Toys &amp; Playthings</option><option value="22">Vacations &amp; Getaways</option><option value="26">Playdates and Kopdars</option></optgroup> <optgroup label="Smart Mama"><option value="16">Health Matters</option><option value="18">Financial Matters</option></optgroup> <optgroup label="Mama's Book Club"><option value="37">Toddler Books</option><option value="38">Parenting Books</option><option value="39">General Books</option><option value="40">Preschool Books</option><option value="41">Children Books</option><option value="42">Tweens/Teens Books</option><option value="43">Book-Related Discussions</option></optgroup> <optgroup label="Mama's References"><option value="15">Doctors and Specialists</option><option value="20">Maternity Hospital</option><option value="21">List of Nursing Rooms + Kids-Friendly Bathrooms</option><option value="24">Schools In Singapore</option><option value="25">Schools In Indonesia</option></optgroup> <optgroup label="Mama's Mall"><option value="17">Shops</option><option value="27">Flea Market &amp; Donations</option></optgroup>
+                </select>
+            </div>
+            <div class="form-group">
+              <div class="checkbox">
+                <label>
+                  <input id="fld2" name="redirect" value="1" type="checkbox"> Leave a redirect topic in the forum from which the topic was moved.
+                </label>
+              </div>
+            </div>
+            <div class="form-group">
+                <div class="row">
+                  <div class="col-xs-6">
+                    <button type="submit" class="btn btn-default text-uppercase">Move</button>
+                  </div>
+                  <div class="col-xs-6">
+                    <button type="reset" class="btn btn-inline text-uppercase">Cancel</button>
+                  </div>
+                </div>
+              </div>
+          </div>
+        </section>
+    </div>
+    <footer>
+      <div class="container">
+        <div class="social-media">
+          <ul>
+            <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+            <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+            <li><a href="#"><i class="fa fa-instagram"></i></a></li>
+            <li><a href="#"><i class="fa fa-envelope-o"></i></a></li>
+          </ul>
+        </div>
+        <p>&copy; 2009-2018 <strong>The Urban Mama.</strong> Hak cipta dilindungi hukum.</p>
+        <p><a href="#">Terms &amp; Conditions</a>&nbsp;|&nbsp;<a href="#">Privacy Policy</a></p>
+      </div>
+    </footer>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script>window.jQuery || document.write('<script src="../../assets/js/vendor/jquery.min.js"><\/script>')</script>
+    <script src="dist/js/bootstrap.min.js"></script>
+    <script src="assets/vendors/owlcarousel/owl.carousel.min.js"></script>
+    <script src="assets/vendors/typehead/bootstrap3-typeahead.min.js"></script>
+    <script src="assets/vendors/bootstrap-select-master/dist/js/bootstrap-select.js" defer></script>
+    <script src="dist/js/custom.js"></script>
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <script src="assets/js/ie10-viewport-bug-workaround.js"></script>
+  </body>
+</html>

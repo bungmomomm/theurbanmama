@@ -1,0 +1,29 @@
+// Animation Classes
+
+.slideUp {
+  animation: slideUp .3s forwards ease-out;
+}
+
+.slideDown {
+  animation: slideDown .5s forwards ease-out;
+}
+
+// Animation Keyframes
+
+@keyframes slideUp {
+  0% {
+    transform: translateY(0);
+  }
+  100% {
+    transform: translateY(-100px);
+  }
+}
+
+@keyframes slideDown {
+  0% {
+    transform: translateY(-100px);
+  }
+  100% {
+    transform: translateY(0px);
+  }
+}
